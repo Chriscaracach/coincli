@@ -7,6 +7,7 @@ program
   .option("--coin <type>", "Add specific coin type", "BTC")
   .option("--curr <currency>", "Change the currency", "USD")
   .action((cmd) => {
+    console.log("probando");
     check.price(cmd);
   });
 
